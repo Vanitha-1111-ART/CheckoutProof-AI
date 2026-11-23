@@ -1,0 +1,70 @@
+# ==============================================================================
+# CheckoutProof AI — Root .gitignore
+# Prevents accidental commits of credentials, binaries, caches, and build output
+# ==============================================================================
+
+# --- Secrets & Environment Variables (STRICT EXCLUSION) ---
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.credentials
+*.p12
+
+# --- Frontend / Node.js ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# --- Java / Maven / Selenium ---
+target/
+*.class
+.m2/
+.locks/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Browser WebDriver Executables (OS-specific binaries)
+*.exe
+*.dll
+*.so
+*.dylib
+automation/drivers/*.exe
+
+# --- Python / FastAPI / AI Service ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+*.log
+
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/

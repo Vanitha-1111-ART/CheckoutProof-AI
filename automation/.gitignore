@@ -1,0 +1,6 @@
+# Automation .gitignore
+target/
+*.class
+.m2/
+drivers/*.exe
+*.log

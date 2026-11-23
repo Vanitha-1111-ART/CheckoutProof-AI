@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-23T05:27:09 IST" name="CheckoutProof AI - Regression Suite" finished-at="2026-11-23T05:27:20 IST" duration-ms="11277">
+    <groups>
+    </groups>
+    <test started-at="2026-11-23T05:27:09 IST" name="Checkout Flow Verification Tests" finished-at="2026-11-23T05:27:20 IST" duration-ms="11277">
+      <class name="com.checkoutproof.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:09 IST" name="setUp" finished-at="2026-11-23T05:27:12 IST" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBlankCustomerNameValidation()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:12 IST" name="testBlankCustomerNameValidation" description="Verify checkout is prevented when customer name is left blank" finished-at="2026-11-23T05:27:13 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankCustomerNameValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:13 IST" name="tearDown" finished-at="2026-11-23T05:27:13 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:13 IST" name="setUp" finished-at="2026-11-23T05:27:16 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testQuantityChangeAndExactTotalVerification()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:16 IST" name="testQuantityChangeAndExactTotalVerification" description="Verify product quantity increment and exact final total calculation ($127.00)" finished-at="2026-11-23T05:27:16 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuantityChangeAndExactTotalVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:16 IST" name="tearDown" finished-at="2026-11-23T05:27:16 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:16 IST" name="setUp" finished-at="2026-11-23T05:27:19 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulCheckout()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:19 IST" name="testSuccessfulCheckout" description="Verify successful checkout flow with valid item and customer name" finished-at="2026-11-23T05:27:20 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.checkoutproof.tests.CheckoutTests@28f2a10f]" started-at="2026-11-23T05:27:20 IST" name="tearDown" finished-at="2026-11-23T05:27:20 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.checkoutproof.tests.CheckoutTests -->
+    </test> <!-- Checkout Flow Verification Tests -->
+  </suite> <!-- CheckoutProof AI - Regression Suite -->
+</testng-results>
