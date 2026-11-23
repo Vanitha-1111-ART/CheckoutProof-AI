@@ -25,6 +25,9 @@ const INITIAL_PRODUCTS = [
   },
 ];
 
+// AI Failure Analysis Dashboard URL (Production Render service with fallback)
+const AI_DASHBOARD_URL = import.meta.env.VITE_API_BASE_URL || 'https://checkoutproof-ai.onrender.com/';
+
 export default function App() {
   const [products] = useState(INITIAL_PRODUCTS);
   const [cart, setCart] = useState([]);
@@ -149,8 +152,22 @@ export default function App() {
               <p className="brand-tagline">Reliable Checkout. Verified Every Time.</p>
             </div>
           </div>
-          <div className="header-badges">
+          <div className="header-actions">
             <span className="badge-sdet">SDET Test-Ready App</span>
+            <a
+              href={AI_DASHBOARD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-ai-dashboard"
+              title="Open AI Failure Analysis Dashboard in new tab"
+              data-testid="ai-dashboard-link"
+            >
+              <span className="ai-icon">🤖</span>
+              <span className="ai-btn-text">
+                <span className="ai-btn-title">AI Failure Analysis Dashboard</span>
+                <span className="ai-btn-sub">AI Service Dashboard ↗</span>
+              </span>
+            </a>
           </div>
         </div>
       </header>
